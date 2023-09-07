@@ -196,7 +196,7 @@ pp "Your lucky number is " + lucky_number
 ```
 {: .repl #to_s title="to_s" points="1"}
 
-Uh oh! [RTEM](https://learn.firstdraft.com/lessons/67#seriously-please-read-the-error-message)!
+Uh oh! [RTEM](https://learn.firstdraft.com/lessons/67-ruby-intro-fundamentals#seriously-please-read-the-error-message)!
 
 It turns out that `String`'s `+` method can only add two strings together, not a string and an object of some other class. So, a lot of times we'll need to convert an `Integer` into a `String` prior to output. Fortunately `Integer` has a handy method, `to_s` (or "to string"), that does just that:
 
